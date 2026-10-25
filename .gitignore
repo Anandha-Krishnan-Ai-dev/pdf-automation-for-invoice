@@ -1,0 +1,27 @@
+# Python bytecode and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# IDE and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local configuration / secrets
+.env
+.env.*
+!.env.example
+
+# Client PDFs and generated output must stay out of Git
+/input/*.pdf
+/output/*
+!/output/.gitkeep
+!/output/text/
+/output/text/*
+!/output/text/.gitkeep
+
+# Keep the synthetic sample only in examples/
